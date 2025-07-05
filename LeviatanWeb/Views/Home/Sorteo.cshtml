@@ -1,0 +1,35 @@
+﻿@model List<HomeModel> //Importar Modelo 
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<div class="text-center">
+    <h1>
+        participantes
+    </h1>
+</div>
+
+
+<div class="col-xl-12">
+    <div class="row justify-content-center">
+ 
+
+        @foreach (var participante in Model)
+        {
+            <div class="col-sm-3 col-xl-3 col-md-3 m-3">
+                <div class="card border border-light text-center">
+                    <div class="card-body">
+
+                        <div class="col-sm-4 col-xl-4 col-md-4 my-3 mx-auto">
+                            <img class="img-fluid d-block mx-auto" src="/img/peepoLev.png" />
+                        </div>
+
+                        <h5 class="card-title">@participante.Nombre @participante.apellido</h5>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

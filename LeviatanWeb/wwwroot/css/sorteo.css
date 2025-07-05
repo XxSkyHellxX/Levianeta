@@ -1,0 +1,59 @@
+﻿.card{
+    background-color:rgb(3, 59, 101, 0.50);
+    color:white;
+    
+    display:inline-flex;
+
+}
+
+.card{
+
+    animation-name:tamaño;
+    animation-duration:2s;
+    animation-iteration-count:infinite;    
+    
+}
+
+.card img{
+    animation-name:rotar;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+
+h1{
+   text-decoration:underline;
+   text-transform: uppercase;
+   text-underline-offset: 10px;
+   margin-bottom: 50px
+}
+
+
+
+/*ANIMACIONES*/
+@keyframes rotar{
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes tamaño{
+
+    0% {
+        transform: scale(100%);
+    }
+
+    50%{
+     
+        transform: scale(110%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+
+}
+

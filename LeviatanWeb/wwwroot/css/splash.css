@@ -1,0 +1,64 @@
+﻿body {
+    background-image: url('../img/Fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    font-style: normal;
+    position: fixed;
+    overflow: hidden;
+}
+
+#img1 {
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    position: fixed;
+    animation-name: aparicion;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+
+}
+
+h1 {
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    position: fixed;
+    animation-name: aparicion2;
+    animation-duration: 6s;
+    animation-iteration-count: initial;
+}
+
+@keyframes aparicion{
+    0% {
+        opacity: 0.0;
+        transform: translate(-50%, -90%) rotate(0);
+    }
+
+    100% {
+        opacity: 1;
+        margin-right: 0px;
+        transform: translate(-50%, -90%) rotate(360deg);
+    }
+}
+
+@keyframes aparicion2 {
+    0% {
+        opacity: 0.0;
+
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+
+
