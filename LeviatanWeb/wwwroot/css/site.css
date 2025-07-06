@@ -38,3 +38,43 @@ body {
     position: fixed;
 }
 
+h1{
+    animation-name:opacidad;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+}
+
+/*Formulario*/
+
+form {
+    background-image: url('../img/form.png');
+    color: #258cfb;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+form label {
+        background-color: #ffffff;
+        color: #258cfb;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius:5px;
+}
+
+/*ANIMACIONES*/
+
+@Keyframes opacidad{
+
+    0%{
+        opacity:0.1;
+    }
+
+
+    100% {
+        opacity: 1.0;
+    }
+
+}

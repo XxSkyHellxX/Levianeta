@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\infor\\OneDrive\\Escritorio\\LeviatanWeb\\LeviatanWeb.csproj": {}
+    "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\LeviatanWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\infor\\OneDrive\\Escritorio\\LeviatanWeb\\LeviatanWeb.csproj": {
+    "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\LeviatanWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\infor\\OneDrive\\Escritorio\\LeviatanWeb\\LeviatanWeb.csproj",
+        "projectUniqueName": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\LeviatanWeb.csproj",
         "projectName": "LeviatanWeb",
-        "projectPath": "C:\\Users\\infor\\OneDrive\\Escritorio\\LeviatanWeb\\LeviatanWeb.csproj",
+        "projectPath": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\LeviatanWeb.csproj",
         "packagesPath": "C:\\Users\\infor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\infor\\OneDrive\\Escritorio\\LeviatanWeb\\obj\\",
+        "outputPath": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

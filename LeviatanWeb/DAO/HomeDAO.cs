@@ -1,6 +1,7 @@
 ﻿using LeviatanWeb.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using System.Data;
 
 
 namespace LeviatanWeb.DAO
@@ -43,6 +44,30 @@ namespace LeviatanWeb.DAO
             return participantes;
 
         }
+
+        public void IngresarParticipante(List<HomeModel> participantes)
+        {
+            using (var conn = new SqlConnection(_connectionString))
+            {
+                conn.Open();
+
+                foreach (var p in participantes)
+                {
+                    using (var cmd = new SqlCommand("LEV.agregarParticipante", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure; //Este codigo 'CommandType.StoredProcedure' hace que ASP.NET automaticamente detecte que es un stored procedure
+
+                        cmd.Parameters.AddWithValue("@nombre", p.Nombre);
+                        cmd.Parameters.AddWithValue("@apellido", p.apellido);
+                        cmd.Parameters.AddWithValue("@correo", p.correo);
+                        cmd.Parameters.AddWithValue("@celular", p.celular);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+        }
+
 
     }
 }
