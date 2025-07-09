@@ -40,8 +40,7 @@ body {
 
 h1{
     animation-name:opacidad;
-    animation-iteration-count: infinite;
-    animation-duration:1s;
+    animation-duration:5s;
 }
 
 /*Formulario*/

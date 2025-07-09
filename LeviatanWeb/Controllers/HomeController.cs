@@ -28,6 +28,13 @@ namespace LeviatanWeb.Controllers
             return View(participantes);
         }
 
+        public IActionResult Gestion()
+        {
+            var participantes = _dao.ObtenerParticipantes();
+
+            return View(participantes);
+        }
+
         public IActionResult addParticipante()
         {
             var modelo = new List<HomeModel> { new HomeModel() };

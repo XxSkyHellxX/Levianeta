@@ -6,7 +6,7 @@
 
 }
 
-.card{
+.card:hover{
 
     animation-name:tamaño;
     animation-duration:2s;
@@ -14,7 +14,7 @@
     
 }
 
-.card img{
+.card:hover img{
     animation-name:rotar;
     animation-duration:2s;
     animation-iteration-count:infinite;
