@@ -1,3 +1,4 @@
+wwwroot\css\gestion.css
 wwwroot\css\site.css
 wwwroot\css\sorteo.css
 wwwroot\css\splash.css
@@ -8,6 +9,7 @@ wwwroot\img\LEV LOGO NAME.png
 wwwroot\img\LEV LOGO.png
 wwwroot\img\luna.png
 wwwroot\img\peepoLev.png
+wwwroot\js\gestion.js
 wwwroot\js\site.js
 wwwroot\js\splash.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -67,4 +69,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\gestion.css

@@ -68,6 +68,31 @@ namespace LeviatanWeb.DAO
             }
         }
 
+        public void ActualizarParticipante(List<HomeModel> participantes)
+        {
+            using (var conn = new SqlConnection(_connectionString))
+            {
+                conn.Open();
+
+                foreach (var p in participantes)
+                {
+                    using (var cmd = new SqlCommand("LEV.actualizarParticipante", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure; //Este codigo 'CommandType.StoredProcedure' hace que ASP.NET automaticamente detecte que es un stored procedure
+
+                        cmd.Parameters.AddWithValue("@id", p.idParticipante);
+                        cmd.Parameters.AddWithValue("@nombre", p.Nombre);
+                        cmd.Parameters.AddWithValue("@apellido", p.apellido);
+                        cmd.Parameters.AddWithValue("@correo", p.correo);
+                        cmd.Parameters.AddWithValue("@celular", p.celular);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+        }
+
+
 
     }
 }

@@ -4,18 +4,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<head>
-    <link rel="stylesheet" href="~/css/gestion.css" asp-append-version="true" />
-</head>
-
-
 <div class="container">
     <div class="row justify-content-center">
 
         <div class="text-center col-xl-12">
             <h1>Gestion de Participantes</h1>
         </div>
-
+        
         <div>
 
         </div>
@@ -39,12 +34,12 @@
                     @foreach (var i in Model)
                     {
                         <tr>
-                            <td>@i.Nombre</td>
+                            <td>@i.idParticipante @i.Nombre</td>
                             <td>@i.apellido</td>
                             <td>@i.correo</td>
                             <td>@i.celular</td>
                             <td>
-                                <button class="btn  btn-outline-primary">
+                                <button class="btn  btn-outline-primary" onclick="asignarID(@i.idParticipante)" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
                                         <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
                                         <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
@@ -66,5 +61,59 @@
 
 
         </div>
+        
+        <!-- Modal Update de Participantes-->
+
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="exampleModalLongTitle">Actualizar Datos</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form asp-action="actualizarParticipante" method="post" class="p-3 border border-light rounded">
+                            @for (var i = 0; i < Model.Count; i++)
+                            {
+                                <div class="ms-2 ">
+                                    <label class="my-2">ID</label>
+                                    <input id="inputIdParticipante" type="number" name="@($"[{i}].idParticipante")" class="form-control mb-2" />
+                                </div>
+
+                                <div class="ms-2 ">
+                                    <label class="my-2">Nombre</label>
+                                    <input type="text" name="@($"[{i}].Nombre")" class="form-control mb-2" />
+                                </div>
+
+                                <div class="ms-2 ">
+                                    <label class="my-2">Apellido</label>
+                                    <input type="text" name="@($"[{i}].apellido")" class="form-control mb-2" /> <!-- Esta es la forma correcta de asignar un campo del modelo a un input -->
+                                </div>
+
+                                <div class="ms-2 ">
+                                    <label class="my-2">Correo</label>
+                                    <input type="text" name="@($"[{i}].correo")" class="form-control mb-2" />
+                                </div>
+
+                                <div class="ms-2 ">
+                                    <label class="my-2">Celular</label>
+                                    <input type="text" name="@($"[{i}].celular")" class="form-control mb-2" />
+                                </div>
+
+                            }
+
+                            <button type="submit" class="btn btn-primary my-3"> Ingresar</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
     </div>
 </div>
+
+<script src="~/js/gestion.js"></script>                                    

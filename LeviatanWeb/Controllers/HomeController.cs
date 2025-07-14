@@ -61,5 +61,14 @@ namespace LeviatanWeb.Controllers
             return RedirectToAction("Sorteo");
         }
 
+
+        [HttpPost]
+        public IActionResult actualizarParticipante(List<HomeModel> participante)
+        {
+
+            _dao.ActualizarParticipante(participante);
+
+            return RedirectToAction("Gestion");
+        }
     }
 }
