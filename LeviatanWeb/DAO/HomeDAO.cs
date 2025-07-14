@@ -21,7 +21,7 @@ namespace LeviatanWeb.DAO
 
             using (var conn = new SqlConnection(_connectionString))
             {
-                conn.Open();
+                 conn.Open();
 
                 var consulta = new SqlCommand("select idParticipante,Nombre,apellido,correo,celular from lev.Participante", conn);
                 var reader = consulta.ExecuteReader(); // Ejecutar Consulta

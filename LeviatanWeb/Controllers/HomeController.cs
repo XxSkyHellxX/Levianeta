@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using LeviatanWeb.DAO;
 using LeviatanWeb.Models;
+using LeviatanWeb.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LeviatanWeb.Controllers
@@ -32,7 +33,16 @@ namespace LeviatanWeb.Controllers
         {
             var participantes = _dao.ObtenerParticipantes();
 
-            return View(participantes);
+            var modeloForm = new List<HomeModel> { new HomeModel() };
+
+
+            var modelo = new HomeViewModel
+            {
+                Participantes = participantes,
+                formularioEdicion = modeloForm
+            };
+
+            return View(modelo);
         }
 
         public IActionResult addParticipante()

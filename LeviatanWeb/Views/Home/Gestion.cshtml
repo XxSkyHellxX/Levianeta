@@ -1,4 +1,4 @@
-﻿@model List<HomeModel>;
+﻿@model LeviatanWeb.Models.ViewModel.HomeViewModel
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -31,7 +31,7 @@
                 </thead>
 
                 <tbody>
-                    @foreach (var i in Model)
+                    @foreach (var i in Model.Participantes)
                     {
                         <tr>
                             <td>@i.idParticipante @i.Nombre</td>
@@ -54,6 +54,9 @@
                                 </button>
                             </td>
                         </tr>
+
+
+
                     }
                 </tbody>
 
@@ -72,7 +75,7 @@
                     </div>
                     <div class="modal-body">
                         <form asp-action="actualizarParticipante" method="post" class="p-3 border border-light rounded">
-                            @for (var i = 0; i < Model.Count; i++)
+                            @for (var i = 0; i < Model.formularioEdicion.Count; i++)
                             {
                                 <div class="ms-2 ">
                                     <label class="my-2">ID</label>

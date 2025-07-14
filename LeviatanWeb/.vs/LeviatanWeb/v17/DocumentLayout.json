@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\infor\\onedrive\\escritorio\\levianeta\\leviatanweb\\views\\home\\gestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\daniel retamal\\onedrive\\transfer\\escritorio\\lev\\levianeta\\leviatanweb\\views\\home\\gestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|solutionrelative:views\\home\\gestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\infor\\onedrive\\escritorio\\levianeta\\leviatanweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\daniel retamal\\onedrive\\transfer\\escritorio\\lev\\levianeta\\leviatanweb\\models\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|solutionrelative:models\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\daniel retamal\\onedrive\\transfer\\escritorio\\lev\\levianeta\\leviatanweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\infor\\onedrive\\escritorio\\levianeta\\leviatanweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\infor\\onedrive\\escritorio\\levianeta\\leviatanweb\\dao\\homedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\daniel retamal\\onedrive\\transfer\\escritorio\\lev\\levianeta\\leviatanweb\\dao\\homedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|solutionrelative:dao\\homedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\infor\\onedrive\\escritorio\\levianeta\\leviatanweb\\wwwroot\\js\\gestion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\daniel retamal\\onedrive\\transfer\\escritorio\\lev\\levianeta\\leviatanweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\daniel retamal\\onedrive\\transfer\\escritorio\\lev\\levianeta\\leviatanweb\\wwwroot\\js\\gestion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|solutionrelative:wwwroot\\js\\gestion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\infor\\onedrive\\escritorio\\levianeta\\leviatanweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\daniel retamal\\onedrive\\transfer\\escritorio\\lev\\levianeta\\leviatanweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\infor\\onedrive\\escritorio\\levianeta\\leviatanweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|c:\\users\\daniel retamal\\onedrive\\transfer\\escritorio\\lev\\levianeta\\leviatanweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{33823653-D7B8-4904-9D51-2E64083EB5FA}|LeviatanWeb.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -44,11 +48,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Gestion.cshtml",
-              "DocumentMoniker": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\Views\\Home\\Gestion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Views\\Home\\Gestion.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Gestion.cshtml",
-              "ToolTip": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\Views\\Home\\Gestion.cshtml",
+              "ToolTip": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Views\\Home\\Gestion.cshtml",
               "RelativeToolTip": "Views\\Home\\Gestion.cshtml",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFEAAAAzAAAAAAAAAA==",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-09T02:42:00.159Z",
               "IsPinned": true,
@@ -56,81 +60,90 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Models\\ViewModel\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Models\\ViewModel\\HomeViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\HomeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T15:26:46.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "HomeDAO.cs",
-              "DocumentMoniker": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\DAO\\HomeDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\DAO\\HomeDAO.cs",
               "RelativeDocumentMoniker": "DAO\\HomeDAO.cs",
-              "ToolTip": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\DAO\\HomeDAO.cs",
+              "ToolTip": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\DAO\\HomeDAO.cs",
               "RelativeToolTip": "DAO\\HomeDAO.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAUwE0AAAARAAAAAAAAAA==",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBkAAACCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-14T03:39:06.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "gestion.js",
-              "DocumentMoniker": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\wwwroot\\js\\gestion.js",
+              "DocumentMoniker": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\wwwroot\\js\\gestion.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\gestion.js",
-              "ToolTip": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\wwwroot\\js\\gestion.js",
+              "ToolTip": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\wwwroot\\js\\gestion.js",
               "RelativeToolTip": "wwwroot\\js\\gestion.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-14T03:24:14.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T03:24:14.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T03:22:56.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T03:06:51.45Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T03:22:56.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T03:06:51.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEYAAAAsAAAAAAAAAA==",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowCwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T03:06:25.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\infor\\OneDrive\\Escritorio\\Levianeta\\LeviatanWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Daniel Retamal\\OneDrive\\Transfer\\Escritorio\\LEV\\Levianeta\\LeviatanWeb\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-09T02:55:24.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T02:55:24.611Z"
             }
           ]
         }

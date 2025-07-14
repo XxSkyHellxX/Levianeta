@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeviatanWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fd8d3a475a5084224af45adf34ea017f500b8e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efad166d85cc39ddbaacd3077cdedb5e9afb132c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeviatanWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeviatanWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
